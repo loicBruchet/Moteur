@@ -1,6 +1,7 @@
 #include "pch.h"
 #include <iostream>
 #include "main.h"
+#include "LevelJouet.h"
 #include "Manager/GameManager.h"
 #include "Manager/ComponentManager.h"
 #include "Component/TransformComponent.h" 
@@ -19,7 +20,7 @@
 int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR cmdLine, int cmdShow)
 {
 	GameManager* gameManager = GameManager::GInstance();
-
+	Launchlevel(gameManager);
 	gameManager->Run();
 	return 0;
 }

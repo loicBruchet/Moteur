@@ -3,11 +3,10 @@
 #include "Manager/GameManager.h"
 #include "Component/TransformComponent.h"
 
-#include "Tag.h"
-class PrefabJouet
+class PrefabJouet 
 {
 public:
-	TransformComponent* transform = nullptr;
+	TransformComponent* transform = nullptr; 
 
 	PrefabJouet();
 	virtual ~PrefabJouet();

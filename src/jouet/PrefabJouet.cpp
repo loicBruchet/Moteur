@@ -1,6 +1,5 @@
 #include "pch.h"
 #include "PrefabJouet.h"
-#include "Tag.h"
 
 
 PrefabJouet::PrefabJouet()
